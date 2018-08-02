@@ -10,7 +10,7 @@ d = database.Mydatabase()
 
 s = socket()
 s.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
-s.bind(("0.0.0.0", 8880))
+s.bind(("127.0.0.1", 8880))
 s.listen(10)
 
 # 创建ＩＯ事
@@ -27,12 +27,12 @@ ppai = []
 lpai = []
 
 sockfd1 = socket(AF_INET, SOCK_STREAM, 0)
-sockfd1.connect(('0.0.0.0', 8867))  # 绑定斗地主服务器ip
+sockfd1.connect(('127.0.0.1', 8867))  # 绑定斗地主服务器ip
 p.register(sockfd1, (EPOLLIN | EPOLLERR))
 qiandaihousock[sockfd1.fileno()] = sockfd1
 
 sockfd2 = socket(AF_INET, SOCK_STREAM, 0)
-sockfd2.connect(('0.0.0.0', 8868))  # 绑定斗跑得快服务器ip
+sockfd2.connect(('127.0.0.1', 8868))  # 绑定斗跑得快服务器ip
 p.register(sockfd2, (EPOLLIN | EPOLLERR))
 qiandaihousock[sockfd2.fileno()] = sockfd2
 

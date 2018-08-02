@@ -6,7 +6,7 @@ from multiprocessing import Pool
 sockfd = socket(AF_INET, SOCK_STREAM, 0)
 sockfd.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
 # 绑定ＩＰ端口
-sockfd.bind(('0.0.0.0', 8868))
+sockfd.bind(('127.0.0.1', 8868))
 
 # 设置监听套接字，创建监听队列
 sockfd.listen(5)
