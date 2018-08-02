@@ -1,0 +1,60 @@
+开始游戏界面
+
+斗地主图片：宽200px  高200px      left:160px     top:60px
+快速开始按钮：left:160px   top:285px
+创建房间按钮：left:160px   top:350px     
+加入房间按钮：left:160px   top:415px     
+
+跑得快图片：宽200px  高200px      left:580px     top:60px
+快速开始按钮：left:580px   top:285px
+创建房间按钮：left:580px   top:350px
+加入房间按钮：left:580px   top:415px
+
+
+
+游戏界面
+
+地主头像：left:0          top:210px
+农民头像：left:850px   top:210px
+农民头像：left:80px     top 410px
+过：left:130px   top:350px
+pass: left:755px    top:355px
+1分、2分、3分、不叫按钮：左右居中  top:280px
+
+
+
+棋牌游戏大全登录页
+
+人物left：0;top:124px;
+棋牌游戏大全：left：355；px：80px
+账号：left：490px；top：224px
+密码：left：490px；top;290px
+登录：left：534px;   top:425px
+注册：left：662px；top：425px
+忘记密码：left：766px：；  top：425px
+
+
+
+
+注册界面
+整体居左50px,向右对齐
+用户名：left:108px;  top:45px                 矩形框：182，45
+密码：left:126px;  top:82px                    矩形框： 182，82
+再次输入密码：left:51px;  top:119px        矩形框： 182，119
+手机号：left:107px;  top:156px                矩形框： 182，156
+昵称：left:126px;  top:193px                    矩形框： 182，193
+检测是否可用：left:380px   top:45px
+提交注册：left:195px   top:240px
+
+
+
+
+跑的快游戏界面
+1号：left:0px, top:220px
+2号：left:445px,top:0px
+3号：left:860px,top:215px
+4号：left:60px,top:420px
+
+
+
+
